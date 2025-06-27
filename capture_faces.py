@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 
 class FaceCollector:
-    def __init__(self, max_images=50, min_area=30000, max_area=90000, radius=120):
+    def __init__(self, max_images=150, min_area=30000, max_area=90000, radius=120):
         self.MAX_IMAGES = max_images
         self.MIN_AREA = min_area
         self.MAX_AREA = max_area
